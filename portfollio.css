@@ -1,0 +1,122 @@
+body {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    font-size: 1em;
+    background-color: #83FF7D;
+    
+    
+}
+
+#container {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1500px;
+}
+
+header {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url("park-1557366_1920.jpg"); /* taken from Pixabay */
+    
+}
+
+   
+
+
+#logo {
+    
+    max-width: 100%; 
+    width: 20%;
+}
+
+nav {
+    
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+    max-width: 100%;
+    background-color: #167F39;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    
+    margin: 0 auto;
+   text-decoration: none;
+     font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: black;   
+}
+
+nav a:hover {
+    
+    text-decoration: underline;
+}
+
+section {
+    
+    margin: 0 ;
+    padding: 0;
+    width:100%;
+
+
+}
+
+.table {
+    
+    margin: 0 auto;
+    padding: 0;
+    min-width: 320px;
+    min-height: 568px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.row {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    
+}
+
+.col-before {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+img {
+    
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    
+}

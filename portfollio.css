@@ -6,7 +6,7 @@ body {
     height: 100%;
     font-weight: 300;
     font-size: 1em;
-    background-color: #FFFEEE;
+    background-color: #FFFBF5;
     
     
 }
@@ -105,18 +105,12 @@ section {
     
 }
 
-.col-before {
+.row img {
     
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    
-}
-
-img {
-    
-    margin: 0;
+    margin: 2em;
     padding: 0;
     width: 30%;
+    
+    
     
 }

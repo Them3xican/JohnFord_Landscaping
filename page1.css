@@ -6,7 +6,7 @@ body {
     height: 100%;
     font-weight: 300;
     font-size: 1em;
-    background-color: #FFFEEE;
+    background-color: #FFFBF5;
     
     
 }
@@ -25,7 +25,7 @@ header {
     padding: 0;
     width: 100%;
     text-align: center;
-    background-image: url("park-1557366_1920.jpg");
+    background-image: url("park-1557366_1920.jpg"); /* taken from Pixabay */
     
 }
 
@@ -36,13 +36,6 @@ header {
     
     max-width: 100%; 
     width: 20%;
-}
-aside {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    width: 50%;
-    background-color:  pink;
 }
 
 nav {
@@ -59,10 +52,11 @@ nav {
 nav a {
     
     margin: 0 auto;
+   text-decoration: none;
      font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
     font-size: 2em;
-   
+    color: black;   
 }
 
 nav a:hover {
@@ -124,7 +118,7 @@ section a:hover {
     padding: 0;
     width: 40%;
     margin-left: 5em;
-    margin-top: 3em;
+    margin-top: 8em;
 }
 
 

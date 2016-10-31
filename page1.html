@@ -1,20 +1,19 @@
- <!doctype html> 
-
+<!doctype html>
 <html>
-
-    <head>
-        
-         <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" type="text/css" href="page1.css">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="page1.css"/>
+    
+     <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    
+    <meta charset="UTF-8">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
         
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
-        
-        <meta charset="utf-8">
-        
-        <script type="text/javascript">
+    
+     <script type="text/javascript">
             
             function SwapDivsWithClick(div1,div2)
             {
@@ -33,56 +32,61 @@
                }
             }
 </script>
-        
-        <title>John Ford Landscaping</title>
-        
-    </head>
-
     
-    <body>
+    <title>Untitled Document</title>
+    
+</head>
+    
+<body>
+    
+    
+
+    <header>
+    
         
-        <div id="container">
+        <img id="logo" src="FordLandscaping-Logo_final.png"/>
+    
+         
         
-        <header>
-            
-            <img id="logo" src="FordLandscaping-Logo_final.png" alt="Logo">
-        
-             <nav> 
+    </header>
+    <nav id="nav"> 
                 
-                <a href="page1.html">Home</a>
-                <a href="portfollio.html">Portfollio</a>
+                <a href="#nav">About</a>
+                <a href="#portfollio">Before/After</a>
                 
             </nav>
+    
+    
+    
+    <div id="container" class="container">
+    
             
-        </header>
+        <aside>
+            
+            <img  src="garden-998238_1920.jpg"/>
+                  
         
-            <section>
-                <img id="lawn" src="garden-952633_1920.jpg"/>
-                <div id="div1">
-                    
-                    
-                     <ul> 
-        <li><a href="javascript:SwapDivsWithClick('div1','div2')" >Contact</a></li>  
-      </ul>
-                    
-                    <h1>About</h1>
+        </aside>
+    
+        <section>
+        
+            <div id="div1">
+                
+                <a href="javascript:SwapDivsWithClick('div1','div2')" >Contact</a>
+            
+                <h1>About</h1>
                     
                     <h2><b>Ford Landscaping and Gardening</b></h2>
 
-                    <p>Want to get your Garden looking neat and tidy for summer without a large bill at the end?<br>
-We offer a professional Garden landscaping service operating in the Winchester area. Our rates are very reasonable and we will work with you to help accomplish your goals<br>
+                    <p>We offer a professional Garden landscaping service operating in the Winchester area. Our rates are very reasonable and we will work with you to help accomplish your goals<br>
 
 Patios - Decking - Driveways - Ponds - Walls - Fencing</p>
-                    
-                
-
-                    
-                </div>
             
-                <div id="div2">
-                     <ul> 
-        <li><a href="javascript:SwapDivsWithClick('div1','div2')" >About</a></li> 
-      </ul>
+            </div>
+            
+            <div id="div2">
+            
+                <a href="javascript:SwapDivsWithClick('div1','div2')" >About</a>
                     
                     <h1>Contact</h1>
                     
@@ -91,12 +95,80 @@ Patios - Decking - Driveways - Ponds - Walls - Fencing</p>
                     <b>Email:</b> jon455453@hotmail.co.uk<br>
                     <b>Website:</b> http://ford-landscapes.co.uk/</p>
                 </div>
-                
-              
-                
-            </section>
+        
+        </section>
+    
+        <!-- Dont change!! -->
+        
+        
+        
+        <section id="portfollio">
             
-        </div>
-    </body>
-</html>
+            <h1>Before/After</h1>
+            
+            
+            
+            <div class="table">
+                
+                    <div class="row">
+                        
+                        <div class="col-left">
+                        
+                            <img src="garden_before.jpg">
+                            <img src="garden_after.jpg">
+                            
+                        </div>
+                            
+                            <div class="col-right">
+                            
+                            <img src="hedge_before.jpg">
+                            <img src="hedge_after.jpg">
+                            
+                            </div>
+                         
+                    </div>
+                    
+                    <div class="row">
+                         
+                        <div class="col-left">
+                            
+                            <img src="house_hedge_before.jpg">
+                            <img src="house_hedge_after.jpg">
+                            
+                        </div>
+                        
+                        <div class="col-right">
+                           
+                            <img src="tree_before.jpg">
+                            <img src="tree_after.jpg">
+                        
+                        </div>
+                    
+                    <div class="row">
+                            
+                        <div class="col-left">
+                        
+                            <img src="lawn_before.jpg">
+                            <img src="lawn_after.jpg">
+                        
+                        </div>
+                        
+                        <div class="col-right">
+                        
+                            <img src="14646690_1205942646145316_1504288059_o.jpg"/>
+                        <img src="14689257_1205942639478650_233590377_o.jpg"/>
+                        
+                        </div>
+                        
+                    </div>
+                <div id="static">
+        
+            <a href="#nav">Top</a>
+    </div>
+        </section>
+    
+    </div>
 
+
+</body>
+</html>
